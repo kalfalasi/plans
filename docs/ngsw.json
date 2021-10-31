@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1635705046924,
+  "timestamp": 1635707058260,
   "index": "https://kalfalasi.github.io/plans/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://kalfalasi.github.io/plans/favicon.ico",
         "https://kalfalasi.github.io/plans/index.html",
-        "https://kalfalasi.github.io/plans/main.861dabac4d4d6fc364f1.js",
+        "https://kalfalasi.github.io/plans/main.a616edc1eb061099e5fb.js",
         "https://kalfalasi.github.io/plans/manifest.webmanifest",
         "https://kalfalasi.github.io/plans/polyfills.e1a72e445b32712eca34.js",
         "https://kalfalasi.github.io/plans/runtime.3a41b6cfa5ccbcc3aadf.js",
@@ -72,8 +72,8 @@
     "https://kalfalasi.github.io/plans/fa-solid-900.be9ee23c0c6390141475.ttf": "eb8914f6b1797b45ee0883e6089d92695d9f9441",
     "https://kalfalasi.github.io/plans/fa-solid-900.eeccf4f66002c6f2ba24.woff": "a22acd7697f36e7d4cc31a853c70e776eac54bb1",
     "https://kalfalasi.github.io/plans/favicon.ico": "b65083d46bbf63692d5d2cdd69622e6d7ecae317",
-    "https://kalfalasi.github.io/plans/index.html": "dad526c5664dc88898f5633cfcf5506f6cda48b8",
-    "https://kalfalasi.github.io/plans/main.861dabac4d4d6fc364f1.js": "35c0c71dedaf54a8e0bf88624bdd52754fd9ef43",
+    "https://kalfalasi.github.io/plans/index.html": "0bcbf2e2ac24182d897e6f84e3252c9fd8cca51a",
+    "https://kalfalasi.github.io/plans/main.a616edc1eb061099e5fb.js": "52790f2cf42dbbfd203d808781a4ed7d4c769a3d",
     "https://kalfalasi.github.io/plans/manifest.webmanifest": "667f60576bd8c0bb127f5c69876868509b564e9f",
     "https://kalfalasi.github.io/plans/polyfills.e1a72e445b32712eca34.js": "4eb303c344a7069214fc46523fc102722634be98",
     "https://kalfalasi.github.io/plans/runtime.3a41b6cfa5ccbcc3aadf.js": "c0e2bcf205ee90a19c0fd3a7daa513e053852ec6",
