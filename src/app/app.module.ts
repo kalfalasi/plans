@@ -22,7 +22,6 @@ import { MatDividerModule } from '@angular/material/divider';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { CardComponent } from './du/card/card.component';
-import { IvyCarouselModule } from 'angular-responsive-carousel';
 
 @NgModule({
   imports: [
@@ -43,7 +42,6 @@ import { IvyCarouselModule } from 'angular-responsive-carousel';
     MatDividerModule,
     MatIconModule,
     MatButtonModule,
-    IvyCarouselModule,
     AppRoutingModule, // must be imported as the last module as it contains the fallback route
   ],
   declarations: [AppComponent, DuComponent, CardComponent],
