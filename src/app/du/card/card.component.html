@@ -1,0 +1,49 @@
+<div class="card-wrapper" [class.not-popular]="!plan.popular">
+  <p *ngIf="plan.popular" class="popular-badge small bold">Most popular</p>
+  <mat-card>
+    <div class="left-border"></div>
+    <div class="container">
+      <p class="pink small">You Pay</p>
+      <p class="pink large bolder">AED {{ plan.price }} <span class="normal small">/month</span></p>
+      <p class="black smaller">For 12 months + 5% VAT</p>
+      <mat-divider></mat-divider>
+      <p class="blue small">You Get</p>
+      <p class="blue large bolder">Power Plan {{ plan.price }}</p>
+      <mat-divider></mat-divider>
+      <p class="black large price-description">
+        <span *ngIf="plan.prevData" class="light-grey lt">{{ plan.prevData }}</span
+        ><span class="bolder">{{ plan.data }}</span
+        ><span class="small">
+          <ng-container *ngIf="plan.prevData">Double national data</ng-container>
+          <ng-container *ngIf="!plan.prevData">National data</ng-container>
+        </span>
+      </p>
+      <p class="black large price-description">
+        <span *ngIf="plan.prevFlexMin" class="light-grey lt">{{ plan.prevFlexMin }}</span
+        ><span class="bolder">{{ plan.flexMin }}</span
+        ><span class="small">Flexi minutes</span>
+      </p>
+      <mat-divider></mat-divider>
+      <div class="check-list">
+        <ng-container *ngFor="let check of plan.list">
+          <p class="small check">
+            <mat-icon>check</mat-icon> <span>{{ check }}</span>
+          </p>
+        </ng-container>
+      </div>
+
+      <div class="footer">
+        <ng-container *ngIf="plan.limitedOffer">
+          <mat-divider></mat-divider>
+          <p class="chip">Limited time offer</p>
+          <p class="small"><strong>The Entertainer</strong> on us for 12 months</p>
+        </ng-container>
+        <mat-divider></mat-divider>
+        <div class="actions">
+          <p class="small underline">What you get</p>
+          <button mat-stroked-button class="bold medium">Select</button>
+        </div>
+      </div>
+    </div>
+  </mat-card>
+</div>

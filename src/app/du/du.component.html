@@ -1,0 +1,9 @@
+<mat-toolbar>
+  <span>Postpaid Plans</span>
+</mat-toolbar>
+
+<section class="cards">
+  <ng-container *ngFor="let plan of plans">
+    <app-card [plan]="plan"></app-card>
+  </ng-container>
+</section>
